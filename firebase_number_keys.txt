@@ -1,0 +1,5 @@
+cd android
+.\gradlew signingReport
+
+
+keytool -list -v -keystore "C:\Users\bilal\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
